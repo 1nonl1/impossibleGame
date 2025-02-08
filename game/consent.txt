@@ -1,0 +1,92 @@
+This document is a consent form for participating in the "Impossible Game." The purpose of this form 
+is to inform you of the potential actions and risks associated with playing the game. By signing this
+form, you acknowledge that you are fully aware of the game's complexity, its possible effects on your 
+system, and the risks that may arise, including the possibility of unintentional system malfunctions or 
+degraded performance. Although the game is designed to avoid causing permanent damage, its increasing difficulty 
+may introduce unforeseen issues that you must accept as a condition of participation.
+
+I. What Will Happen:
+The "Impossible Game" involves multiple progressive phases of difficulty, each of which may alter your system's 
+performance to simulate increasing challenge levels. Below is a detailed breakdown of what actions or modifications 
+may occur during gameplay:
+
+    1.	Software Updates: The game does not directly update any software on your computer, nor will it install any 
+    programs or applications outside the scope of the game itself.
+    
+    2.	System Modifications: As the game progresses to harder levels, it may trigger system-level activities. 
+    These may include interactions with your system's resources such as CPU, RAM, and processes. These actions are intended 
+    to raise the difficulty but can also affect system stability.
+    
+    3.	Resource Usage and Management: The game may engage processes that test system limits, such as high memory consumption, 
+    increased CPU load, and the creation of numerous system tasks. These activities are designed to challenge the computer's 
+    capacity but could inadvertently result in system slowdowns, freezes, or errors.
+
+II. Timeline of Changes:
+    1.	Duration of Changes: The game may last for an extended period, anywhere from several minutes to a few hours, depending on the 
+    difficulty level and your performance. As you progress through the levels, the duration of each challenge may increase.
+
+    2.	Immediate Impact: As you begin the game, you may notice a slight degradation in system performance as challenges are introduced. 
+    However, the most significant impact will occur as the difficulty escalates, potentially leading to temporary system crashes or slowdowns.
+
+III.  What is Changed:
+Details of Modifications: The game will not alter core system files, but the following modifications may occur:
+
+    1.	Operating System Modifications: The game does not perform updates to your operating system, nor does it install or uninstall 
+    system-level software. However, the game will require your computer's resources to be taxed heavily, which may affect overall system 
+    responsiveness.
+    
+    2.	RAM Usage and Process Creation: The game may cause your computer to run at high memory capacity, especially during the later stages. 
+    This could cause your system to freeze, slow down, or crash, particularly when processing larger or more complex challenges.
+    
+    3.	System Behavior During Challenges: In difficult stages, if you input incorrect responses, the game may invoke processes such as 
+    fork bombs (which create excessive numbers of processes), high RAM utilization, or simulated system shutdowns. While these actions are 
+    intended as part of the game challenge, they may lead to unanticipated behaviors such as system crashes, lags, or freezes.
+
+Impact of Changes:
+
+    1.	System Performance: While participating in the game, you should expect your computer's performance to degrade, particularly as 
+    the game advances to harder levels. This may include sluggishness, system unresponsiveness, or extended load times as the game simulates 
+    increasing complexity.
+
+    2.	Possible System Failures: The game may cause your system to fail temporarily, such as crashing or forcing a reboot. These failures 
+    are not intended but may occur due to the high resource demands placed on your system.
+
+    3.	Potential Data Loss: While the game itself does not directly erase or alter your files, high resource consumption may result in an 
+    unresponsive system or a forced shutdown, increasing the potential for unsaved data to be lost.
+
+    4.	Resource Overload: If the game enters the most difficult levels, it could intentionally or unintentionally cause the system's 
+    resources to be overrun, resulting in a system freeze, crash, or reset.
+
+IV. Acknowledgment of Risk and Liability:
+By consenting to participate in this game, you acknowledge and accept the following risks:
+
+    1.	System Failures: The game will place significant demands on your system's resources, which could cause the system to crash, freeze, or 
+    become unresponsive at any point during the game.
+
+    2.	Data Loss and Corruption: While the game does not directly manipulate your files, system failures caused by high resource usage could 
+    result in lost or corrupted data, especially if programs or files are open at the time of a crash.
+
+    3.	Security Vulnerabilities: The behavior of the game, such as invoking resource-intensive processes, may leave the system temporarily 
+    vulnerable to security issues, including instability or loss of data integrity.
+
+    4.	Unforeseen Outcomes: The game is designed to push the system's limits. There is a possibility that unforeseen consequences may occur, 
+    including unanticipated system errors or crashes. These may be exacerbated if the game reaches its hardest levels.
+
+You agree to participate in the game at your own risk and understand that all actions and outcomes are beyond the control of the game's creator.
+
+V. Consent to Proceed:
+By signing this form, you are providing explicit consent to the following:
+
+    1.	Allowing Changes: You authorize the game to perform the actions as described in this consent form, understanding that this may 
+    affect the performance and stability of your computer.
+
+    2.	Acceptance of Risks: You accept all risks associated with running the game, including potential system crashes, high resource usage, 
+    data loss, and system instability. You understand that these risks are inherent to the nature of the game and may not be fully preventable.
+
+    3.	Acknowledgment of Information: You acknowledge that you have been fully informed of the changes that will take place, the potential 
+    risks involved, and the possible consequences of participating in the game. You are aware of the nature of the game's actions and agree to 
+    proceed with full understanding.
+
+By playing and/or saying yes, you confirm that you have read and understood the entire consent form, including the risks and consequences of 
+participating in the "Impossible Game." Your signature signifies that you accept all terms and conditions outlined in this document. 
+
