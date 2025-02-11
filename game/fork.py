@@ -19,10 +19,7 @@ def main():
     print("Num of Processors", processors)
     processes = processors  * 300
     print(f"Create {processes} Processes")
-    """Danger!! (an Infinite loop)
-    while True:
-        spawn(processes)
-    """
+    
     spawn(processes)
     
 if __name__ == "__main__":

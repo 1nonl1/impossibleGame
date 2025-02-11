@@ -25,7 +25,7 @@ def guessNum():
             print("Try again!")
     print("You failed!!")
     q.put("faild")
-    subprocess.run(["python", "/game/fork.py"])
+    subprocess.run(["python", "game/fork.py"])
 
 def prob():
     s = time.time()
@@ -145,12 +145,12 @@ def steg():
             time.sleep(0.5)
             
             theflag = input("Enter the flag: ")
-            while theflag != lsb.reveal("./Python/game/images/new.png"):
+            while theflag != lsb.reveal("game/images/new.png"):
                 theflag = input("Enter the flag")
-                if theflag == lsb.reveal("./Python/game/images/new.png"):
+                if theflag == lsb.reveal("game/images/new.png"):
                     print("You did it! You won!!!!")
                 else:
-                    subprocess.call(["python", "game/fork.py"])
+                    subprocess.run(["python", "game/fork.py"])
                     continue
         else:
             quit()

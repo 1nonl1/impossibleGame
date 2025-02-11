@@ -26,7 +26,6 @@ def prob():
             print("Good luck! You'll need it!")
             please = random.randint(1, 1000000)
             while please != 192:
-                please = random.randint(1, 1000000)
                 print(please, end = "\r")
                 time.sleep(0.05)
                 if please == 192:
@@ -62,10 +61,8 @@ def paswrdGuess():
         wait = q.get()
         if wait == "memdone":
             q.close()
-            randNum = random.randint(10, 99)
             letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
-            wordPart = ''.join(random.choice(letters) for _ in range(2))
-            password = wordPart + str(randNum)
+            password = ''.join(random.choice(letters) for _ in range(2)) + str(random.randint(10, 99))
             guess = None
             print("Great job finishing the first task!")
             print("Now, you have to guess the password!")
@@ -124,14 +121,11 @@ def steg():
             print("But wait! That folder is encrypted!")
             print("Best of luck!")
             time.sleep(0.5)
-            
+            x = 1
             theflag = input("Enter the flag: ")
-            while theflag != lsb.reveal("./Python/game/images/new.png"):
+            while theflag != lsb.reveal("game/images/new.png"):
                 theflag = input("Enter the flag")
-                if theflag == lsb.reveal("./Python/game/images/new.png"):
-                    print("You did it! You won!!!!")
-                else:
-                    continue
+                print("You did it! You won!!!!") if theflag == lsb.reveal("game/images/new.png") else x = 0
         else:
             quit()
 

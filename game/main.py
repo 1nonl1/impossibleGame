@@ -1,4 +1,4 @@
-import subprocess, time
+import time
 
 def func():
     choice = input("Type in a difficulty level (hard, easy): ")
@@ -9,6 +9,7 @@ def func():
             main2()
         elif ask == "n":
             print("Please read and sign the consent form before playing the hard mode.")
+            time.sleep(3)
             quit()
         else:
             print("Input not found.")
