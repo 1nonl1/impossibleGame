@@ -121,11 +121,10 @@ def steg():
             print("But wait! That folder is encrypted!")
             print("Best of luck!")
             time.sleep(0.5)
-            x = 1
             theflag = input("Enter the flag: ")
             while theflag != lsb.reveal("game/images/new.png"):
-                theflag = input("Enter the flag")
-                print("You did it! You won!!!!") if theflag == lsb.reveal("game/images/new.png") else x = 0
+                theflag = input("Enter the flag: ")
+                print("You did it! You won!!!!") if theflag == lsb.reveal("game/images/new.png") else print("That is incorrect! Try again")
         else:
             quit()
 

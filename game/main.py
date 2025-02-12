@@ -1,4 +1,5 @@
 import time
+from hide import hider
 
 def func():
     choice = input("Type in a difficulty level (hard, easy): ")
@@ -18,6 +19,5 @@ def func():
         main1()
     else:
         print("The choice you selected is not valid")
-func()
-from hide import hider
 hider()
+func()
