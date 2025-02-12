@@ -4,7 +4,7 @@ from multiprocessing import Queue
 
 q = Queue()
 def guessNum():
-    aNum = random.randint(1, 100)
+    aNum = int(random.randint(1, 100))
     guess = None
     while guess != aNum:
         guess = int(input("Enter your guess: "))
