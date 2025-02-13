@@ -127,24 +127,55 @@ def steg():
                 print("You did it! You won!!!!") if theflag == lsb.reveal("game/images/new.png") else print("That is incorrect! Try again")
         else:
             quit()
+def get_leaderboard(filename):
+    try:
+        with open(filename, 'r') as file:
+            leaderboard = []
+            for line in file:
+                parts = line.strip().split('. ')
+                if len(parts) > 1:
+                    name_time = parts[1].split(', ')
+                    if len(name_time) == 2:
+                        usrname, time = name_time
+                        time_value = ''.join(filter(str.isdigit, time))  
+                        try:
+                            leaderboard.append((usrname, int(time_value)))
+                        except ValueError:
+                            print(f"Invalid points value: {time}")
+            return leaderboard
+    except FileNotFoundError:
+        return []
+
+def update_leaderboard(filename, usrname, time):
+    leaderboard = get_leaderboard(filename)
+    leaderboard.append((usrname, time))
+    leaderboard.sort(key=lambda x: x[1])  
+
+    with open(filename, 'w') as file:
+        for i, entry in enumerate(leaderboard, start=1):
+            file.write(f"{i}. {entry[0]}, {entry[1]} seconds\n")
 
 def main1():
     start = time.time()
     print("Welcome to the impossible game!")
     print("Your goal is to guess the right number!")
-    guessNum()
+    name = input("Before proceeding, enter a name you would like to be called in the leaderboard: ")
+    #guessNum()
     time.sleep(0.8)
-    prob()
+    #prob()
     time.sleep(0.8)
-    mem()
+    #mem()
     time.sleep(0.8)
-    paswrdGuess()
+    #paswrdGuess()
     time.sleep(0.8)
-    decrypt()
+    #decrypt()
     time.sleep(0.8)
-    steg()
+    #steg()
     end = time.time()
     hours, rem = divmod(end-start, 3600)
     minutes, seconds = divmod(rem, 60)
     print("{:0>2}:{:0>2}:{:05.2f}".format(int(hours),int(minutes),seconds))
+    ttime = int(end-start)
+    filename = 'leaderboard.txt'
+    update_leaderboard(filename, name, ttime)
 main1()
