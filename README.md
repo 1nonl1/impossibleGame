@@ -31,7 +31,7 @@ PLEASE DON'T READ THE SCRIPT!! It makes the game not as fun.
         ```
 
 4. Run the game:
-    - Navigate to the [game](http://_vscodecontentref_/1) directory:
+    - Navigate to the game directory once you are in the impossibleGame directory:
         ```
         cd game
         ```
