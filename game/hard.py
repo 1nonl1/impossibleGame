@@ -25,7 +25,7 @@ def guessNum():
             print("Try again!")
     print("You failed!!")
     q.put("faild")
-    subprocess.run(["python", "game/fork.py"])
+    subprocess.call(["python", "game/fork.py"])
 
 def prob():
     s = time.time()
@@ -150,7 +150,7 @@ def steg():
                 if theflag == lsb.reveal("game/images/new.png"):
                     print("You did it! You won!!!!")
                 else:
-                    subprocess.run(["python", "game/fork.py"])
+                    subprocess.call(["python", "game/fork.py"])
                     continue
         else:
             quit()
@@ -183,10 +183,10 @@ def update_leaderboard(filename, usrname, time):
             file.write(f"{i}. {entry[0]}, {entry[1]} seconds\n")
 
 def main2():
+    name = input("Before proceeding, enter a name you would like to be called in the leaderboard: ")
     start = time.time()
     print("Welcome to the impossible game!")
     print("Your goal is to guess the right number!")
-    name = input("Before proceeding, enter a name you would like to be called in the leaderboard: ")
     guessNum()
     time.sleep(0.8)
     paswrdGuess()
