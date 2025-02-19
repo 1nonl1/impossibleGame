@@ -21,4 +21,4 @@ PLEASE DON'T READ THE SCRIPT!! It makes the game not as fun.
     	- `cd game`
 		- `python3 main.py`
 
-Now you can choose between easy mode and hard mode.
+Now you can choose between easy mode and hard mode. If something doesn't work or you have a suggestion, please say in the discussions page.
